@@ -1,0 +1,16 @@
+.NavBar {
+    border-bottom: 2px solid rgb(104, 0, 149);
+    padding: 10px 25px 10px 25px;
+    display: flex;
+    align-items: center;
+
+    &__logo {
+        height: 50px;
+        padding-right: 5px;
+    }
+
+    &__heading {
+        color: rgb(104, 0, 149);
+        padding-left: 5px;
+    }
+}
