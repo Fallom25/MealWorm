@@ -1,0 +1,38 @@
+
+.cardFront {
+    border: 2px solid rgb(104, 0, 149);
+    border-radius: 6px;
+    display: inline-block;
+    margin: 25px;  
+    box-shadow: 1px 5px 10px darkgray;
+    font-family: Arial, Helvetica, sans-serif; 
+
+    &__img {
+        
+    }
+
+    &__info {
+        padding: 5px 15px 25px 15px;
+    }
+
+    &__RecipeName {
+        color: rgb(104, 0, 149);
+    }
+
+    &__Origin {
+        color: grey;
+        padding: none;
+    }
+
+    &__links {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+
+        &Styles {
+            text-decoration: none;
+            color: grey;
+            font-size: large
+        }
+    }
+}
