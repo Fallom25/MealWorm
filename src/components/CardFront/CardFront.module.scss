@@ -1,20 +1,22 @@
 
 .cardFront {
-    border: 2px solid rgb(104, 0, 149);
-    border-radius: 6px;
-    display: inline-block;
-    margin: 25px;  
-    box-shadow: 1px 5px 10px darkgray;
-    font-family: Arial, Helvetica, sans-serif; 
-    height: 380px;
-    width: 275px;
+    max-height: 400px;
+    max-width: 275px;
+    border-radius: 5px;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2), 0 4px 7px rgba(0, 0, 0, 0.27);
+    border: solid 2px rgb(70, 50, 111);
+    backface-visibility: hidden;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
 
     &__img {
-        
+        height: 50%;
+        width: 100%;
     }
 
     &__info {
-        padding: 5px 15px 25px 15px;
+        padding: 5px 15px 35px 15px;
     }
 
     &__RecipeName {

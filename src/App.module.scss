@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+
+  &__layout {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
