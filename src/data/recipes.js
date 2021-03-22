@@ -106,6 +106,7 @@ export const recipes = [
     }
 ];
 
+
 export const emptyRecipe = {
     idMeal: "",
     strMeal: "",

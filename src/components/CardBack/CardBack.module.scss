@@ -11,8 +11,14 @@
     margin: 20px;
     padding: 20px;
 
-    &__RecipeName {
+    &__Recipe {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &_Name {
         color: rgb(104, 0, 149);
+        }
     }
 
     &__heading {
@@ -35,6 +41,11 @@
             height: 30%;
             margin-top: 20px;
             font-size: small;
+        }
+
+        &_list {
+            display: flex;
+            align-items: center;
         }
     }
 }
